@@ -3,7 +3,7 @@
 
   padding: 112px 123px;
   grid-template-rows: 379px auto;
-  grid-template-columns: 296px 351px 1fr;
+  grid-template-columns: 296px 351px 409px;
   row-gap: 59px;
   column-gap: 32px;
 
@@ -89,6 +89,10 @@
 
         &.second {
           background: linear-gradient(121.94deg, #CE9FFC 15.98%, #7367F0 82.85%);
+        }
+
+        &.third {
+          background: linear-gradient(121.94deg, #DF9780 15.98%, #A66DE9 82.85%);
         }
       }
 

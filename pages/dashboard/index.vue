@@ -10,7 +10,7 @@
     <div class="grid__sales-card">
       <h1>Vendas fechadas</h1>
 
-      <Donut />
+      <Donut percentage="70" type="primary" />
 
       <div class="grid__sales-card__bullets">
         <div class="grid__sales-card__bullets__result">
@@ -27,25 +27,42 @@
       </div>
     </div>
 
-    <div class="grid__meta-card">Meta mensal</div>
+    <div class="grid__sales-card">
+      <h1>Meta mensal</h1>
+
+      <Donut percentage="90" type="second" />
+
+      <div class="grid__sales-card__bullets">
+        <div class="grid__sales-card__bullets__result">
+          <span class="grid__sales-card__bullets__dot primary" />
+          <p>Esperado</p>
+          <span class="grid__sales-card__bullets__result__value">100</span>
+        </div>
+
+        <div class="grid__sales-card__bullets__result">
+          <span class="grid__sales-card__bullets__dot third" />
+          <p>Alcançado</p>
+          <span class="grid__sales-card__bullets__result__value">100</span>
+        </div>
+      </div>
+    </div>
 
     <div class="grid__week-sales-card">Vendas por dia da semana</div>
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang="scss">
-@import './styles.scss';
+@import "./styles.scss";
 * {
   font-family: Inter;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   height: 100vh;
   width: 100%;
@@ -53,11 +70,16 @@ html, body {
   background: #292738;
 }
 
-h1, p, span {
+h1,
+p,
+span {
   margin: 0;
 }
 
 #__nuxt {
+  display: flex;
+  align-content: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
 }
