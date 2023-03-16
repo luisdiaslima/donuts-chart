@@ -47,7 +47,27 @@
       </div>
     </div>
 
-    <div class="grid__week-sales-card">Vendas por dia da semana</div>
+    <div class="grid__week-sales-card">
+      <div class="grid__week-sales-card__info">
+        <h1>Vendas por dia da semana</h1>
+        
+        <div class="grid__week-sales-card__info__sale">
+          <PolygonPlusIcon class="grid__week-sales-card__info__sale__icon" />
+          <p class="grid__week-sales-card__info__sale__text">Dia com mais vendas</p>
+        </div>
+
+        <p class="grid__week-sales-card__info__label">quarta-feira</p>
+
+        <div class="grid__week-sales-card__info__sale">
+          <PolygonLessIcon class="grid__week-sales-card__info__sale__icon" />
+          <p class="grid__week-sales-card__info__sale__text">Dia com menos vendas</p>
+        </div>
+
+        <p class="grid__week-sales-card__info__label">doming</p>
+      </div>
+
+      <div class="grid__week-sales-card__graph"></div>
+    </div>
   </div>
 </template>
 
