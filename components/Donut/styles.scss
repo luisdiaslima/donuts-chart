@@ -47,7 +47,7 @@ circle {
   stroke-width: 33px;
   stroke-dasharray: 518;
   stroke-dashoffset: 518;
-  animation: anim 0.7s linear forwards;
+  animation: anim 1.3s cubic-bezier(0.915, 0.610, 0.355, 1) forwards;
 }
 
 svg {

@@ -131,6 +131,8 @@
 
   &__week-sales-card {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 314px;
     padding: 29px 48px;
 
@@ -154,6 +156,10 @@
       line-height: 160%;
   
       margin-bottom: 32px;
+    }
+
+    &__graph {
+      height: 100%;
     }
     
     &__info {
@@ -192,7 +198,5 @@
         }
       }
     }
-
-
   }
 }

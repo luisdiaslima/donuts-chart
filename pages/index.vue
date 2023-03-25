@@ -66,7 +66,9 @@
         <p class="grid__week-sales-card__info__label">doming</p>
       </div>
 
-      <div class="grid__week-sales-card__graph"></div>
+      <div class="grid__week-sales-card__graph">
+        <LinearGraphic />
+      </div>
     </div>
   </div>
 </template>
