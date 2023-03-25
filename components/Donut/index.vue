@@ -36,7 +36,7 @@
         :style="{ stroke: 'url(' + gradient + ')' }"
         cx="100"
         cy="100"
-        r="83"
+        r="82"
         stroke-linecap="round"
       />
     </svg>
